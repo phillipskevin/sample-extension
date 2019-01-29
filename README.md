@@ -55,3 +55,11 @@ This script sets up a global variable (`window.__SAMPLE_EXTENSION_NAMESPACE__`) 
 Not _technically_ a script, but this html page loads a JavaScript file that extends Chrome's devtools with a new panel.
 
 This panel uses the [chrome.devtools.inspectedWindow.eval](https://developer.chrome.com/extensions/devtools_inspectedWindow) to call functions on the `__SAMPLE_EXTENSION_NAMESPACE__` object to retrieve data from the user's page and display it in the devtools panel.
+
+## How do I run it?
+
+1. clone the repo
+2. navigate Chrome to chrome://extensions/
+3. click "Load Unpacked"
+4. select the directory where the repo is cloned
+5. open Chrome devtools and click on the "Sample Extension" panel
